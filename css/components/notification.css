@@ -1,0 +1,58 @@
+.notification {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 8px 16px;
+    border-bottom: 1px solid rgb(235,235,235);
+}
+
+.action {
+    opacity: 0;
+    display: flex;
+    margin-left: 0;
+    transition: ease .3s;
+    margin-right: 0;
+}
+
+.action a:hover {
+    opacity: 1;
+}
+
+.content {
+    padding: 0 24px;;
+}
+
+.content > p > a {
+    text-decoration: none;
+    color: #268BD2;;
+}
+
+.notification small {
+    color: #999999;
+    font-weight: bold;
+}
+
+.notification p {
+    margin: 0;
+    line-height: 1.4;
+}
+
+.action-links {
+    color: #999999;
+    margin-left: 16px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.fa, .fab, .fal, .far, .fas {
+    display: inline-block;
+    line-height: 1;
+}
+
+.notification .action a:hover {
+    color: #555555;
+  }
+
+  .notification:hover .action {
+    opacity: 1;
+  }
